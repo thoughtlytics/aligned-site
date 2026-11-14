@@ -17,6 +17,8 @@ nav a:hover{color:var(--brand)}
 .hero p.sub{font-size:19px;color:var(--muted);margin:0 auto 26px;max-width:600px}
 .btn{display:inline-block;background:var(--brand);color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:600}
 .btn.alt{background:transparent;color:var(--brand);border:1px solid var(--brand);margin-left:8px}
+.figure{margin:18px 0 0;text-align:center}
+.figure img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#fff}
 .note{font-size:14px;color:var(--muted);margin-top:14px}
 section{padding:28px 0}
 h2{font-size:25px;margin:0 0 14px}
@@ -38,3 +40,6 @@ details p{margin:10px 0 0}
 footer.site{border-top:1px solid var(--line);padding:24px 0;font-size:14px;color:var(--muted)}
 footer.site a{margin-right:16px}
 @media (max-width:560px){.hero h1{font-size:30px}.btn.alt{margin:10px 0 0}nav a{margin-left:12px}}
+.figure{margin:0 auto;max-width:600px;text-align:center}
+.figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#fff}
+.figure figcaption{font-size:14px;color:var(--muted);margin-top:8px}
